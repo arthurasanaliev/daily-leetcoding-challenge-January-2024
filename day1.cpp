@@ -1,4 +1,4 @@
-// Problem link: https://leetcode.com/problems/assign-cookies/
+// Problem: https://leetcode.com/problems/assign-cookies/
 
 class Solution {
 public:
