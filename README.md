@@ -1,2 +1,1 @@
-# daily-leetcoding-challenge-January-2024
-# daily-leetcoding-challenge-January-2024
+# Daily LeetCoding Challenge January 2024
