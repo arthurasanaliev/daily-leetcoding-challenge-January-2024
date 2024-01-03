@@ -1,0 +1,20 @@
+// Problem: https://leetcode.com/problems/number-of-laser-beams-in-a-bank/
+
+class Solution {
+public:
+    int numberOfBeams(vector<string>& bank) {
+        int cur = 0, ans = 0;
+        
+        for (auto& floor : bank) {
+            int cnt = 0;
+            for (auto& cell : floor) {
+                if (cell == '1') cnt++;
+            }
+            if (cnt == 0) continue;
+            ans += cur * cnt;
+            cur = cnt;
+        }
+
+        return ans;
+    }
+};
