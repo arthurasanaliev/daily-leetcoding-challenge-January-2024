@@ -1,5 +1,8 @@
 // Problem: https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/
 
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+
 class Solution {
 public:
     vector<vector<int>> findMatrix(vector<int>& nums) {

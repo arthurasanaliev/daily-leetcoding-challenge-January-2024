@@ -1,5 +1,8 @@
 // Problem: https://leetcode.com/problems/number-of-laser-beams-in-a-bank/
 
+// Time Complexity: O(n * m)
+// Space Complexity: O(1)
+
 class Solution {
 public:
     int numberOfBeams(vector<string>& bank) {
